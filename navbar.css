@@ -442,10 +442,10 @@ nav .menu.close .menu-link .text-item {
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 5em;
-	margin-bottom: 5em;
 	z-index: -5;
 	background-image: url(img/AdobeStock_303422111_Preview.png);
 	background-size: cover;
+	margin-bottom: 7em;
 }
 
 .intro-section div {
@@ -494,6 +494,18 @@ nav .menu.close .menu-link .text-item {
 }
 
 /* programming languages */
+
+.LPtext {
+	color: #fff;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background: blue;
+	padding: 1em;
+
+	top: 75%;
+	left: 50%;
+	right: 50%;
+}
 
 body {
 	background: #2f3640;
