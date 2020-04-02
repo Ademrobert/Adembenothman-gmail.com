@@ -442,6 +442,7 @@ nav .menu.close .menu-link .text-item {
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 5em;
+	margin-bottom: 5em;
 	z-index: -5;
 	background-image: url(img/AdobeStock_303422111_Preview.png);
 	background-size: cover;
@@ -499,8 +500,6 @@ body {
 	padding-bottom: 90em;
 }
 
-/* elias */
-
 .programmingtest12 {
 	box-sizing: border-box;
 	justify-content: space-between;
@@ -511,7 +510,6 @@ body {
 }
 
 .programmingtest12 div {
-	background: #ffb961;
 	border-radius: 20px;
 	width: 46%;
 	margin: 2em;
@@ -530,37 +528,41 @@ body {
 	padding: 5em;
 }
 
+.HTML {
+	background: orange;
+}
+
+.CSS {
+	background: navy;
+}
+
+.JavaScript {
+	background: rgb(214, 214, 30);
+}
+
+.Python {
+	background: blue;
+}
+
 @media screen and (max-width: 1695px) {
 	.programmingtest12 div {
-		background: #ffb961;
-		border-radius: 20px;
 		width: 45%;
-		margin: 2em;
 	}
 }
 
 @media screen and (max-width: 1375px) {
 	.programmingtest12 div {
-		background: #ffb961;
-		border-radius: 20px;
 		width: 44%;
-		margin: 2em;
 	}
 }
 
 @media screen and (max-width: 1162px) {
 	.programmingtest12 div {
-		background: #ffb961;
-		border-radius: 20px;
 		width: 43%;
-		margin: 2em;
 	}
 }
 @media screen and (max-width: 1010px) {
 	.programmingtest12 div {
-		background: #ffb961;
-		border-radius: 20px;
 		width: 42%;
-		margin: 2em;
 	}
 }
