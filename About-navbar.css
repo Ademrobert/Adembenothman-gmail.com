@@ -158,7 +158,7 @@ nav .menubar .icons.icon-menu.icon-closed {
 }
 
 nav .menubar .icons.icon-menu.icon-closed span {
-	background-color: #2f3640;
+	background-color: white;
 	justify-content: center;
 	width: 0px;
 	right: initial;
