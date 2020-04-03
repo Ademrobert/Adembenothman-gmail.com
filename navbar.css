@@ -499,12 +499,8 @@ nav .menu.close .menu-link .text-item {
 	color: #fff;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	background: blue;
+	background: grey;
 	padding: 1em;
-
-	top: 75%;
-	left: 50%;
-	right: 50%;
 }
 
 body {
