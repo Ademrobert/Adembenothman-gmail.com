@@ -29,7 +29,7 @@ nav .menubar {
 	padding: 10px 40px;
 	box-sizing: border-box;
 	background-color: #2f3640;
-	box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.5);
 }
 
 /* lets decrease height of menu bar on small devices */
@@ -445,7 +445,7 @@ nav .menu.close .menu-link .text-item {
 	z-index: -5;
 	background-image: url(img/AdobeStock_303422111_Preview.png);
 	background-size: cover;
-	margin-bottom: 7em;
+	margin-bottom: 4.5em;
 }
 
 .intro-section div {
@@ -497,10 +497,14 @@ nav .menu.close .menu-link .text-item {
 
 .LPtext {
 	color: #fff;
-	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	background: grey;
-	padding: 1em;
+	padding: 0.5em;
+	border-radius: 30px;
+	margin-top: -1em;
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
 }
 
 body {
@@ -550,6 +554,23 @@ body {
 
 .Python {
 	background: blue;
+}
+
+@media screen and (max-width: 1600px) {
+	.intro-section {
+		padding-bottom: 2em;
+	}
+
+	.intro-section div {
+		margin-top: 3em;
+	}
+
+	.intro-button {
+		margin-top: 2em;
+	}
+}
+
+@media screen and (max-width: 1250px) {
 }
 
 @media screen and (max-width: 1695px) {
