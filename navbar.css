@@ -445,7 +445,7 @@ nav .menu.close .menu-link .text-item {
 	z-index: -5;
 	background-image: url(img/AdobeStock_303422111_Preview.png);
 	background-size: cover;
-	margin-bottom: 4.5em;
+	margin-bottom: 8.5em;
 }
 
 .intro-section div {
@@ -461,6 +461,7 @@ nav .menu.close .menu-link .text-item {
 	z-index: -5;
 	color: #fff;
 }
+
 .intro-section p {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
 		'Helvetica Neue', sans-serif;
@@ -501,7 +502,7 @@ nav .menu.close .menu-link .text-item {
 	background: grey;
 	padding: 0.5em;
 	border-radius: 30px;
-	margin-top: -1em;
+	margin-top: -2em;
 	position: absolute;
 	left: 50%;
 	margin-left: -300px;
@@ -525,35 +526,48 @@ body {
 	border-radius: 20px;
 	width: 46%;
 	margin: 2em;
+	transition: 0.4s;
+}
+
+.programmingtest12 div:hover {
+	transform: scale(1.05);
 }
 
 .programmingtest12 div h1 {
 	color: #fff;
 	text-align: center;
 	font-family: arial;
+	margin-top: -105px;
+	margin-bottom: 200px;
 }
 
 .programmingtest12 div p {
 	color: #fff;
 	text-align: center;
 	font-family: arial;
-	padding: 5em;
+	margin-top: -150px;
+	margin-bottom: 100px;
+}
+
+.programmingtest12 div a i {
+	margin: 40px 40px;
+	font-size: 100px;
 }
 
 .HTML {
-	background: orange;
+	background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 .CSS {
-	background: navy;
+	background: linear-gradient(120deg, #000bac 0%, #1251af 100%);
 }
 
 .JavaScript {
-	background: rgb(214, 214, 30);
+	background: linear-gradient(120deg, #e9e64b 0%, #c0bd00 100%);
 }
 
 .Python {
-	background: blue;
+	background: linear-gradient(120deg, #5978b8, #1a58dd);
 }
 
 @media screen and (max-width: 1600px) {
