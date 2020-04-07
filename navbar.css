@@ -499,18 +499,19 @@ nav .menu.close .menu-link .text-item {
 .LPtext {
 	color: #fff;
 	font-family: Arial, Helvetica, sans-serif;
-	background: grey;
+	background: linear-gradient(120deg, #06dba6, #1251af, #d44c90);
 	padding: 0.5em;
 	border-radius: 30px;
 	margin-top: -2em;
 	position: absolute;
 	left: 50%;
-	margin-left: -300px;
+	margin-left: -270px;
+	box-shadow: 0px 0px 20px -5px;
 }
 
 body {
 	background: #2f3640;
-	padding-bottom: 90em;
+	padding-bottom: 20em;
 }
 
 .programmingtest12 {
@@ -570,6 +571,37 @@ body {
 	background: linear-gradient(120deg, #5978b8, #1a58dd);
 }
 
+/* we power kids section */
+
+@media screen and (max-width: 1200px) {
+	.intro-section {
+		box-sizing: border-box;
+		margin: 0;
+		padding-bottom: 8em;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 5em;
+		background-size: cover;
+		margin-bottom: 8.5em;
+	}
+
+	.intro-section p {
+		font-size: 30px;
+		margin-left: 3em;
+		margin-right: 2em;
+	}
+
+	.intro-button {
+		padding: 15px 70px;
+		font-size: 30px;
+		margin-top: 5em;
+		margin-right: 2em;
+	}
+}
+
+/* start out with these languages section */
+
 @media screen and (max-width: 1600px) {
 	.intro-section {
 		padding-bottom: 2em;
@@ -582,9 +614,6 @@ body {
 	.intro-button {
 		margin-top: 2em;
 	}
-}
-
-@media screen and (max-width: 1250px) {
 }
 
 @media screen and (max-width: 1695px) {
@@ -604,8 +633,101 @@ body {
 		width: 43%;
 	}
 }
+
 @media screen and (max-width: 1010px) {
 	.programmingtest12 div {
 		width: 42%;
+	}
+
+	.programmingtest12 div a i {
+		margin: 30px 30px;
+		font-size: 70px;
+	}
+
+	.programmingtest12 div h1 {
+		margin-top: -83px;
+		margin-bottom: 200px;
+	}
+}
+
+@media screen and (max-width: 895px) {
+	.programmingtest12 div {
+		margin: 30px;
+		width: 42%;
+	}
+}
+
+@media screen and (max-width: 845px) {
+	.programmingtest12 div {
+		margin: 30px;
+		padding: 30px 190px;
+	}
+
+	.programmingtest12 div a i {
+		margin: 10px -140px;
+		font-size: 110px;
+	}
+
+	.programmingtest12 div p {
+		color: #fff;
+		text-align: center;
+		font-family: arial;
+		margin-top: -150px;
+		margin-bottom: 100px;
+		margin-left: -90px;
+		margin-right: -90px;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.programmingtest12 div {
+		margin: 20px;
+		padding: 30px 140px;
+	}
+
+	.programmingtest12 div a i {
+		margin: 10px -100px;
+		font-size: 110px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.programmingtest12 div {
+		margin: 20px;
+		padding: 0px 120px;
+	}
+
+	.programmingtest12 div a i {
+		margin: 10px -100px;
+		font-size: 80px;
+	}
+
+	.programmingtest12 div h1 {
+		margin-top: -50px;
+		margin-bottom: 200px;
+	}
+
+	.programmingtest12 div p {
+		color: #fff;
+		text-align: center;
+		font-family: arial;
+		margin-top: -110px;
+		margin-bottom: 100px;
+		margin-left: -90px;
+		margin-right: -90px;
+	}
+
+	.LPtext {
+		color: #fff;
+		font-family: Arial, Helvetica, sans-serif;
+		background: linear-gradient(120deg, #06dba6, #1251af, #d44c90);
+		padding: 0.5em;
+		border-radius: 30px;
+		margin-top: -3em;
+		position: absolute;
+		left: 50%;
+		margin-left: -210px;
+		box-shadow: 0px 0px 20px -5px;
+		font-size: 25px;
 	}
 }
